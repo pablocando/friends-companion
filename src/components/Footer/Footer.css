@@ -1,0 +1,151 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  margin-top: 60px;
+  border-top: 3px solid #ffffff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+  opacity: 0.8;
+}
+
+.footer-logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-credit {
+  font-size: 13px;
+  color: #95a5a6;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-credit strong {
+  color: #ecf0f1;
+  font-weight: 600;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-link {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+  color: #3498db;
+  transform: translateY(-2px);
+  background-color: rgba(52, 152, 219, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-center {
+    order: 3;
+  }
+
+  .footer-right {
+    order: 2;
+  }
+
+  .footer-logo-image {
+    height: 35px;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+
+  .social-link {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer-credit {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 12px;
+  }
+
+  .footer-container {
+    gap: 12px;
+  }
+
+  .footer-logo-image {
+    height: 30px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-link {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-credit {
+    font-size: 11px;
+  }
+}

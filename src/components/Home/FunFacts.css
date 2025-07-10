@@ -1,0 +1,133 @@
+.fun-facts-section {
+  background: rgb(30, 30, 30);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.fun-facts-section h2 {
+  text-align: center;
+  color: #ffdc00;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fun-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.fun-fact-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #3498db;
+  position: relative;
+  overflow: hidden;
+}
+
+.fun-fact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3498db, #2980b9);
+}
+
+@media (min-width: 1200px) {
+  .fun-facts-section {
+    padding: 50px;
+  }
+
+  .fun-facts-grid {
+    max-width: 1200px;
+    gap: 30px;
+  }
+
+  .fun-fact-card {
+    padding: 30px;
+  }
+
+  .fun-fact-icon {
+    font-size: 36px;
+  }
+
+  .fun-fact-title {
+    font-size: 20px;
+  }
+
+  .fun-fact-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fun-facts-section {
+    padding: 25px;
+  }
+
+  .fun-facts-section h2 {
+    font-size: 26px;
+  }
+
+  .fun-facts-grid {
+    gap: 20px;
+  }
+
+  .fun-fact-card {
+    padding: 20px;
+  }
+
+  .fun-fact-icon {
+    font-size: 28px;
+  }
+
+  .fun-fact-title {
+    font-size: 16px;
+  }
+
+  .fun-fact-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fun-facts-section {
+    padding: 20px;
+  }
+
+  .fun-facts-section h2 {
+    font-size: 24px;
+  }
+
+  .fun-facts-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .fun-fact-card {
+    padding: 18px;
+  }
+
+  .fun-fact-icon {
+    font-size: 26px;
+  }
+
+  .fun-fact-title {
+    font-size: 15px;
+  }
+
+  .fun-fact-description {
+    font-size: 12px;
+  }
+}

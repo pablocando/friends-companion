@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "☕",
+    "title": "Central Perk",
+    "description": "El famoso café donde se reunían los personajes estaba inspirado en el Little Owl Café de Nueva York, aunque las escenas se filmaron en un estudio."
+  },
+  {
+    "id": 2,
+    "icon": "🎬",
+    "title": "10 Temporadas",
+    "description": "La serie se emitió durante 10 años consecutivos (1994-2004) con un total de 236 episodios que marcaron una generación completa."
+  },
+  {
+    "id": 3,
+    "icon": "💰",
+    "title": "Salarios Millonarios",
+    "description": "En las últimas temporadas, cada actor principal ganaba $1 millón de dólares por episodio, convirtiéndose en los mejor pagados de la TV."
+  },
+  {
+    "id": 4,
+    "icon": "🏆",
+    "title": "54 Nominaciones Emmy",
+    "description": "La serie recibió 54 nominaciones a los premios Emmy durante su emisión, ganando 6 de ellas y consolidándose como un clásico."
+  },
+  {
+    "id": 5,
+    "icon": "🌍",
+    "title": "Fenómeno Global",
+    "description": "Se ha transmitido en más de 220 países y territorios, siendo traducida a decenas de idiomas y manteniendo su popularidad mundial."
+  },
+  {
+    "id": 6,
+    "icon": "📺",
+    "title": "Streaming Récord",
+    "description": "Sigue siendo una de las series más vistas en plataformas de streaming, con millones de visualizaciones diarias en todo el mundo."
+  }
+]
